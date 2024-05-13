@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+    --main-background:#7e22ce;
+    --text-color: #be185d;
+    --nav-background: #c084fc;
+}
+
+body {
+ background-color: var(--main-background);
+ color: var(--text-color);
+ display: flex;
+ flex-direction: column;
+ min-height: 100svh;
+ justify-content: center;
+ align-items: center;
+ gap: 25px;
+}
+
+nav {
+    background: var(--nav-background);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+ul, li {
+    list-style: none;
+}
