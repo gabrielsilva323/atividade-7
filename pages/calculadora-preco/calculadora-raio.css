@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;  
+ }
+ 
+ :root {
+     --main-background:#7e22ee;
+     --text-color: #bed;
+     --nav-background: #c4fc;
+ }
+
+ 
+body {
+    background-color: var(--main-background);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+   }
+
+   nav {
+    background: var(--nav-background);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+ button {
+padding: 100px;
+width: 100%;
+}
